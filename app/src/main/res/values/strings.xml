@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Пульсометр</string>
+
+    <!-- Disclaimer -->
+    <string name="app_disclaimer">Додаток призначений для загального контролю самопочуття та не є медичним приладом.</string>
+
+    <!-- Navigation -->
+    <string name="nav_measure">Виміряти</string>
+    <string name="nav_history">Історія</string>
+    <string name="nav_analytics">Аналітика</string>
+
+    <!-- Measure Screen -->
+    <string name="measure_title">Вимірювання пульсу</string>
+    <string name="mode_camera_ppg">Камера (PPG)</string>
+    <string name="mode_tap_tempo">Дотиком</string>
+    <string name="mode_manual">Вручну</string>
+    <string name="bpm_unit">уд/хв</string>
+    <string name="status_idle">Прикладіть палець до тильної камери та спалаху</string>
+    <string name="status_no_finger">Палець не виявлено — щільно закрийте об’єктив і спалах</string>
+    <string name="status_calibrating">Калібрування сигналу…</string>
+    <string name="status_measuring">Не рухайте пальцем • %1$d с</string>
+    <string name="status_complete">Вимірювання завершено</string>
+    <string name="btn_start_measure">Почати вимірювання</string>
+    <string name="btn_stop_measure">Зупинити</string>
+    <string name="btn_measure_again">Виміряти знову</string>
+    <string name="btn_save_result">Зберегти результат</string>
+    <string name="camera_permission_title">Потрібен доступ до камери</string>
+    <string name="camera_permission_desc">Камера та спалах використовуються лише для оптичного зчитування пульсації крові у кінчику пальця. Фото та відео не зберігаються.</string>
+    <string name="camera_permission_grant">Надати доступ</string>
+    <string name="camera_permission_denied">Доступ до камери відхилено. Ви можете скористатися режимом підрахунку дотиком або надати дозвіл у налаштуваннях.</string>
+    <string name="signal_quality_label">Якість сигналу</string>
+    <string name="signal_quality_good">Відмінний</string>
+    <string name="signal_quality_medium">Середній</string>
+    <string name="signal_quality_weak">Слабкий</string>
+
+    <!-- Tap Tempo & Manual -->
+    <string name="tap_instruction">Торкайтеся кнопки в такт вашому пульсу (мін. 4 дотики)</string>
+    <string name="tap_button_label">ТУТ ПУЛЬС</string>
+    <string name="tap_count_format">Дотиків: %1$d</string>
+    <string name="tap_reset">Скинути</string>
+    <string name="manual_bpm_label">Значення пульсу (30–240 уд/хв)</string>
+    <string name="manual_bpm_error">Введіть значення від 30 до 240</string>
+
+    <!-- Context tags -->
+    <string name="context_resting">У спокої</string>
+    <string name="context_morning">Ранок</string>
+    <string name="context_workout">Тренування</string>
+    <string name="context_stress">Стрес</string>
+    <string name="context_bedtime">Перед сном</string>
+
+    <!-- Save / Edit Dialog -->
+    <string name="save_dialog_title">Зберегти вимірювання</string>
+    <string name="edit_dialog_title">Редагувати запис</string>
+    <string name="context_selector_label">Стан під час вимірювання</string>
+    <string name="note_field_label">Нотатка (необов’язково)</string>
+    <string name="note_field_placeholder">Напр., після прогулянки або кави…</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_cancel">Скасувати</string>
+    <string name="saved_snackbar">Вимірювання збережено</string>
+    <string name="deleted_snackbar">Запис видалено</string>
+
+    <!-- History & Analytics -->
+    <string name="history_title">Журнал вимірювань</string>
+    <string name="filter_all">Усі</string>
+    <string name="empty_history_title">Поки немає записів</string>
+    <string name="empty_history_subtitle">Зробіть перше вимірювання пульсу камерою або дотиком, щоб відстежувати динаміку.</string>
+    <string name="stat_avg">Середній</string>
+    <string name="stat_min">Мін.</string>
+    <string name="stat_max">Макс.</string>
+    <string name="stat_count">Записів</string>
+    <string name="analytics_title">Аналітика ритму</string>
+    <string name="chart_recent_title">Динаміка останніх вимірювань</string>
+    <string name="zones_title">Розподіл за зонами пульсу</string>
+    <string name="local_storage_title">Локальне збереження</string>
+    <string name="local_storage_desc">Усі ваші вимірювання зберігаються локально на пристрої у захищеній базі даних без потреби в інтернеті чи обліковому записі.</string>
+
+    <!-- Heart Rate Zones -->
+    <string name="zone_low">Знижений (&lt;60)</string>
+    <string name="zone_normal">Нормальний (60–99)</string>
+    <string name="zone_elevated">Підвищений (100–139)</string>
+    <string name="zone_high">Високий (140+)</string>
+
+    <!-- Guide Sheet -->
+    <string name="guide_title">Як отримати точний результат</string>
+    <string name="guide_step_1">1. Сядьте зручно та розслабтеся на 1–2 хвилини перед вимірюванням.</string>
+    <string name="guide_step_2">2. Легко прикладіть подушечку вказівного пальця так, щоб закрити об’єктив тильної камери та спалах.</string>
+    <string name="guide_step_3">3. Не тисніть занадто сильно — надмірний тиск перетискає капіляри і послаблює сигнал.</string>
+    <string name="guide_step_4">4. Утримуйте палець нерухомо протягом 15 секунд до завершення шкали.</string>
+    <string name="guide_close">Зрозуміло</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_finger_guide">Ілюстрація правильного розташування пальця на камері та спалаху</string>
+    <string name="cd_camera_preview">Попередній перегляд сенсора камери</string>
+    <string name="cd_heart_icon">Індикатор серцебиття</string>
+    <string name="cd_delete_entry">Видалити запис</string>
+    <string name="cd_edit_entry">Редагувати запис</string>
+    <string name="cd_help">Підказка щодо вимірювання</string>
+    <string name="cd_torch_toggle">Перемкнути спалах</string>
+</resources>

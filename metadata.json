@@ -1,0 +1,6 @@
+{
+  "name": "Пульсометр",
+  "description": "Додаток для вимірювання пульсу через камеру та спалах із журналом вимірювань і статистикою",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
