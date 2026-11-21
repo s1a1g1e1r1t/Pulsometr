@@ -109,7 +109,7 @@ dependencies {
   // implementation(libs.converter.moshi)
   // implementation(libs.firebase.ai)
   
-  implementation(libs.google.id)
+  
   implementation(libs.androidx.credentials)
   implementation(libs.androidx.credentials.play.services)
   
